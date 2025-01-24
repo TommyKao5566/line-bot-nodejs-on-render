@@ -3,8 +3,8 @@ services:
   name: line-bot-nodejs-echo
   env: node
   repo: https://github.com/line/line-bot-sdk-nodejs.git
-  buildCommand: cd examples/echo-bot;npm install
-  startCommand: cd examples/echo-bot;node .
+  buildCommand: cd line-bot-nodejs-echo;npm install
+  startCommand: cd line-bot-nodejs-echo/echo-bot;node .
   plan: free
   autoDeploy: false
   envVars:
